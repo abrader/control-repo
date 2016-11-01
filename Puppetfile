@@ -18,6 +18,10 @@ mod "puppetlabs/ntp", '4.1.2'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
+mod 'ssmtp',
+  :git    => 'git@github.com:abrader/abrader-ssmtp.git',
+  :commit => '0106d0e'
+
 mod 'plex',
   :git    => 'git@github.com:abrader/abrader-plex.git',
   :commit => '16c21e3e0064f'
