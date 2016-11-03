@@ -1,10 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
-# Modules from the Puppet Forge
-# Versions should be updated to be the latest at the time you start
-#mod "puppetlabs/inifile",     '1.5.0'
-#mod "puppetlabs/stdlib",      '4.11.0'
-#mod "puppetlabs/concat",      '2.1.0'
+mod "puppetlabs/vcsrepo", '1.4.0'
 
 mod "puppetlabs/ntp", '4.1.2'
 
@@ -17,6 +13,10 @@ mod "puppetlabs/ntp", '4.1.2'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'plexpy',
+  :git    => 'git@github.com:abrader/abrader-plexpy.git',
+  :commit => '619f318'
 
 mod 'ssmtp',
   :git    => 'git@github.com:abrader/abrader-ssmtp.git',
