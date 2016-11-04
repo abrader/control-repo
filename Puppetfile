@@ -20,7 +20,7 @@ mod 'plexpy',
 
 mod 'ssmtp',
   :git    => 'git@github.com:abrader/abrader-ssmtp.git',
-  :commit => '0106d0e'
+  :commit => '6f00056'
 
 mod 'plex',
   :git    => 'git@github.com:abrader/abrader-plex.git',
