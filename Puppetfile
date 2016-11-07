@@ -4,6 +4,8 @@ mod "puppetlabs/vcsrepo", '1.4.0'
 
 mod "puppetlabs/ntp", '4.1.2'
 
+mod "stahnma/epel', '1.2.2'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
@@ -21,6 +23,10 @@ mod 'plexpy',
 mod 'ssmtp',
   :git    => 'git@github.com:abrader/abrader-ssmtp.git',
   :commit => '6f00056'
+
+mod 'ddclient'
+  :git    => 'git@github.com:abrader/abrader-ddclient.git',
+  :commit => '3c8db86'
 
 mod 'plex',
   :git    => 'git@github.com:abrader/abrader-plex.git',
