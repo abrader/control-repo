@@ -9,7 +9,7 @@ mod 'stahnma/epel', '1.2.2'
 
 mod 'plexpy',
   :git    => 'git@github.com:abrader/abrader-plexpy.git',
-  :commit => '39c675f'
+  :commit => '830b3d4'
 
 mod 'ssmtp',
   :git    => 'git@github.com:abrader/abrader-ssmtp.git',
