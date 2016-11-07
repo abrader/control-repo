@@ -1,10 +1,10 @@
 forge "http://forge.puppetlabs.com"
 
-mod "puppetlabs/vcsrepo", '1.4.0'
+mod 'puppetlabs/vcsrepo', '1.4.0'
 
-mod "puppetlabs/ntp", '4.1.2'
+mod 'puppetlabs/ntp', '4.1.2'
 
-mod "stahnma/epel', '1.2.2'
+mod 'stahnma/epel', '1.2.2'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
