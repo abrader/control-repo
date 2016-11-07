@@ -3,6 +3,7 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs/stdlib', '4.13.1'
 mod 'puppetlabs/vcsrepo', '1.4.0'
 mod 'puppetlabs/ntp', '4.1.2'
+mod 'puppet/alternatives', '1.0.1'
 mod 'stahnma/epel', '1.2.2'
 
 # Modules from Git
@@ -13,7 +14,7 @@ mod 'plexpy',
 
 mod 'ssmtp',
   :git    => 'git@github.com:abrader/abrader-ssmtp.git',
-  :commit => '6f00056'
+  :commit => '324eb63'
 
 mod 'ddclient',
   :git    => 'git@github.com:abrader/abrader-ddclient.git',
