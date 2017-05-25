@@ -32,3 +32,9 @@ mod 'plex',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
+# Work related
+
+mod 'f5',
+  :git    => 'git@github.com:ericzji/puppetlabs-f5_rest.git',
+  :branch => 'ericji'
+
