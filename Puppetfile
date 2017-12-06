@@ -5,6 +5,7 @@ mod 'puppetlabs/vcsrepo', '1.4.0'
 mod 'puppetlabs/ntp', '4.1.2'
 mod 'puppet/alternatives', '1.0.1'
 mod 'stahnma/epel', '1.2.2'
+mod 'herculesteam-augeasproviders_syslog', '2.1.1'
 
 # Modules from Git
 
