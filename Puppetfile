@@ -19,23 +19,19 @@ mod 'ssmtp',
 
 mod 'ddclient',
   :git    => 'git@github.com:abrader/abrader-ddclient.git',
-  :commit => '919650a'
+  :commit => '5bdec77'
 
 mod 'plex',
   :git    => 'git@github.com:abrader/abrader-plex.git',
   :commit => '16c21e3e0064f'
 
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
-
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :branch => 'docs_experiment'
+mod 'rsyslog',
+  :git    => 'git@github.com:voxpupuli/puppet-rsyslog.git',
+  :tag => 'v2.1.0'	
 
 # Work related
 
 mod 'f5',
-  :git    => 'git@github.com:ericzji/puppetlabs-f5_rest.git',
-  :branch => 'ericji'
+  :git    => 'git@github.com:f5devcentral/f5-puppet.git'
+  :branch => 'master'
 
