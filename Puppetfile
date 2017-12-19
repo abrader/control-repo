@@ -32,3 +32,7 @@ mod 'f5',
   :git    => 'git@github.com:f5devcentral/f5-puppet.git',
   :branch => 'master'
 
+mod 'distelli'
+  :git => 'git@github.com:puppetlabs/puppetlabs-distelli_agent.git',
+  :tag => '0.1.0'
+
