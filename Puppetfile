@@ -16,7 +16,7 @@ mod 'plexpy',
 
 mod 'ssmtp',
   :git    => 'git@github.com:abrader/abrader-ssmtp.git',
-  :commit => '192cc19'
+  :commit => '8723ff1'
 
 mod 'ddclient',
   :git    => 'git@github.com:abrader/abrader-ddclient.git',
