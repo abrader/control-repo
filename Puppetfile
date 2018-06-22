@@ -20,7 +20,7 @@ mod 'ssmtp',
 
 mod 'ddclient',
   :git    => 'git@github.com:abrader/abrader-ddclient.git',
-  :commit => '5bdec77'
+  :commit => '34cf49d'
 
 mod 'plex',
   :git    => 'git@github.com:abrader/abrader-plex.git',
